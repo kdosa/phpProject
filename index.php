@@ -1,8 +1,8 @@
 <?php
 if(isset($_POST['name'])){
     $server = "localhost";
-    $username = "root";
-    $password = "";
+    $username = "*****";
+    $password = "*****";
 
     $con = mysqli_connect($server, $username, $password);
 
